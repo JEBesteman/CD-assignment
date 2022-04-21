@@ -1,1 +1,1 @@
-# CD assignment
+[![Run tests and deploy application to VPS](https://github.com/JEBesteman/CD-assignment/actions/workflows/workflow.yml/badge.svg?branch=main)](https://github.com/JEBesteman/CD-assignment/actions/workflows/workflow.yml)
