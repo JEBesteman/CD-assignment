@@ -26,6 +26,6 @@ Maybe for other students:
 <https://codedamn.com/learn/github-actions-ci-cd/intro/introduction.OKhdTPUb09-B9bIzGM0Nl>
 
 * Indentation Yaml problem:
-I have chosen for indentation of 4 spaces. I have tried multiple times to do this with 2. First VSCode formatted automatically with 4, settings.json changed and tabs into spaces. But there goes something with pushing my code to github. My code on laptop is different than on Github. I don't know why exactly. Online yaml linter tried and copy past and same problem. So I decided to use 4 spaces because it is still valid yaml syntax.
+I have chosen for indentation of 4 spaces. I have tried multiple times to do this with 2. First VSCode formatted automatically with 4, settings.json changed and tabs into spaces. But there goes something wrong when pushing my code to github. My code on laptop is different than on Github. I don't know why exactly. Online yaml validator/linter tried and copy past and same problem. So I decided to use 4 spaces because it is still valid yaml syntax.
 
 [![Run tests and deploy application to VPS](https://github.com/JEBesteman/CD-assignment/actions/workflows/workflow.yml/badge.svg?branch=main)](https://github.com/JEBesteman/CD-assignment/actions/workflows/workflow.yml)
