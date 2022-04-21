@@ -17,4 +17,4 @@ def cow():
 
 @app.route("/dog")
 def dog():
-    return "Watch out big angry dog!"
+    return "Beware of this cuddling little doggy"

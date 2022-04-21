@@ -27,4 +27,4 @@ def test_dog(client):
     response = client.get("/dog")
 
     assert response.status_code == 200
-    assert response.data == b"Watch out big angry dog!"
+    assert response.data == b"Beware of this cuddling little doggy"
