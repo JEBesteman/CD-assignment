@@ -32,7 +32,7 @@ jobs:
                   KEY: ${{ secrets.SSHKEY }}
               with:
                   source: "."
-                  target: "/home/"
+                  target: "/home/farm/"
 
             - name: Executing remote command
               uses: appleboy/ssh-action@master
@@ -41,4 +41,6 @@ jobs:
                   USERNAME: ${{ secrets.USERNAME }}
                   PORT: ${{ secrets.PORT }}
                   KEY: ${{ secrets.SSHKEY }}
-                  script: echo "There is a change!"
+                  script: |
+                      echo "There is a change!"
+                      ls
